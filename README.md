@@ -1,6 +1,7 @@
 # Tony's_USB-HUB
 
-<img width="659" height="787" alt="image" src="https://github.com/user-attachments/assets/158d0f8a-57ba-4bfa-aeb5-bf6449d0fa66" />
+<img width="1142" height="793" alt="image" src="https://github.com/user-attachments/assets/a1e8973a-b719-402d-b937-4567d215fdb2" />
+
 
 <img width="798" height="738" alt="image" src="https://github.com/user-attachments/assets/e37e992c-d047-4fc7-a794-043f3f0c0df0" />
 
