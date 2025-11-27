@@ -1,0 +1,102 @@
+** Drc report for USB_HUB.kicad_pcb **
+** Created on 2025-11-25T08:13:06-0600 **
+
+** Found 26 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(87.1808 mm, 89.8500 mm): Value field of USB3 (USB-AF-90-14.4X13.6-H7.0-DIP)
+    @(87.0138 mm, 71.1300 mm): Value field of USB2 (USB-AF-90-14.4X13.6-H7.0-DIP)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(87.1558 mm, 108.7900 mm): Value field of USB4 (USB-AF-90-14.4X13.6-H7.0-DIP)
+    @(87.1808 mm, 89.8500 mm): Value field of USB3 (USB-AF-90-14.4X13.6-H7.0-DIP)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(87.1558 mm, 108.7900 mm): Value field of USB4 (USB-AF-90-14.4X13.6-H7.0-DIP)
+    @(87.4958 mm, 128.4300 mm): Value field of USB5 (USB-AF-90-14.4X13.6-H7.0-DIP)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.7980 mm, 64.0180 mm): Segment of USB2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.0220 mm, 78.2420 mm): Segment of USB2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(108.6440 mm, 48.2700 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.8360 mm, 68.0820 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(88.2800 mm, 121.3180 mm): Segment of USB5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.5040 mm, 135.5420 mm): Segment of USB5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.9650 mm, 82.7380 mm): Segment of USB3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.1890 mm, 96.9620 mm): Segment of USB3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.9400 mm, 101.6780 mm): Segment of USB4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.1640 mm, 115.9020 mm): Segment of USB4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(87.7980 mm, 64.0180 mm): Segment of USB2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(102.0220 mm, 78.2420 mm): Segment of USB2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(108.6440 mm, 48.2700 mm): Segment of USB1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(121.0900 mm, 63.0180 mm): Segment of USB1 on Edge.Cuts
+    @(120.5820 mm, 63.0180 mm): Segment of USB1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(120.8360 mm, 68.0820 mm): Segment of USB1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(88.2800 mm, 121.3180 mm): Segment of USB5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(102.5040 mm, 135.5420 mm): Segment of USB5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(87.9650 mm, 82.7380 mm): Segment of USB3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(102.1890 mm, 96.9620 mm): Segment of USB3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(87.9400 mm, 101.6780 mm): Segment of USB4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(95.4200 mm, 62.1400 mm): Rectangle on Edge.Cuts
+    @(102.1640 mm, 115.9020 mm): Segment of USB4 on F.Silkscreen
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(105.0900 mm, 82.8300 mm): Track [GND] on B.Cu, length 0.0990 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(107.1300 mm, 88.9200 mm): Track [VBUS] on B.Cu, length 0.5700 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
